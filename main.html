@@ -1,0 +1,41 @@
+
+<html lang="en">
+<head>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="//unpkg.com/brain.js" defer></script>
+  <script src="index.js" defer></script>
+</head>
+<style>
+body{
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    gap:10px;
+}
+.textarea {
+  padding: 100px;
+  background: #004695;
+  color: white;
+  font-size: 36px;
+  border:1px solid lightsteelblue;
+  border-radius: 5px;
+}
+.btn{
+  background:lightsteelblue;
+  padding: 10px;
+  border-radius: 3px;
+  
+  }
+</style>
+<div class="textarea"> Text</div>
+<div class="btn">
+    <label for="inp">Color Picker</label>
+<input id="inp" type="color" value="#004695"/>
+</div>
+  
+</body>
+</html>
